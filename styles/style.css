@@ -318,7 +318,7 @@
     margin: 50px 120px 130px 120px;
 }
 
-/* Header Section Style */
+/* Footer Section Style */
 .footer-container {
     background-color: #FFF4E7;
     margin: 0 120px 100px 120px;
@@ -332,9 +332,6 @@
     font-size: 20px;
     color: #424242;
 }
-
-
-
 
 /*----------------------------------------------
                 Media Queries
