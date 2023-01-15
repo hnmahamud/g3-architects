@@ -189,9 +189,10 @@
     font-weight: 600;
     font-size: 20px;
     color: #131313;
+    margin-bottom: 10px;
 }
 
-.freture-sub-description {
+.feature-sub-description {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
@@ -199,11 +200,13 @@
 
 .experience-btn {
     text-align: center;
+    position: relative;
+    bottom: 125px;
 }
 
 /* Some Facts Part */
 .some-facts-container {
-    margin: 100px 120px;
+    margin: 0 120px 100px 120px;
 }
 
 .facts-title {
@@ -461,6 +464,10 @@
     .features-image img {
         width: 100%;
         height: auto;
+    }
+
+    .experience-btn {
+        position: static;
     }
 
     /* Some Facts Part */
