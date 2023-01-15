@@ -27,6 +27,24 @@
     color: #FF900E;
 }
 
+.btn-secondary {
+    background-color: #FF900E;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 45px;
+    color: #FFFFFF;
+}
+
+.sdry-btn-prt1 {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.sdry-btn-prt2 {
+    font-weight: 500;
+    font-size: 25px;
+}
+
 /* Header Section Style */
 .header {
     background-color: rgba(255, 144, 14, 0.1);
@@ -133,6 +151,56 @@
     margin-bottom: 32px;
 }
 
+/* Features Part */
+.features-container {
+    display: flex;
+    align-items: center;
+    gap: 54px;
+    margin: 0 120px;
+}
+
+.features-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.feature-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.freture-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.feature-sub-info {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.feature-sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.freture-sub-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.experience-btn {
+    text-align: center;
+}
+
 /* Some Facts Part */
 .some-facts-container {
     margin: 100px 120px;
@@ -156,6 +224,7 @@
 .facts-boxes {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
     justify-items: center;
 }
 
@@ -255,6 +324,18 @@
         color: #FF900E;
     }
 
+    .btn-secondary {
+        padding: 20px 30px;
+    }
+    
+    .sdry-btn-prt1 {
+        font-size: 30px;
+    }
+    
+    .sdry-btn-prt2 {
+        font-size: 16px;
+    }
+
     /* Header Section Style */
     /* Nav Part */
     .nav-container {
@@ -323,6 +404,30 @@
         margin-bottom: 20px;
     }
 
+    /* Features Part */
+    .features {
+        padding: 30px 20px 20px 20px;
+    }
+
+    .features-container {
+        flex-direction: column;
+        gap: 20px;
+        margin: 0;
+    }
+
+    .feature-title {
+        font-size: 30px;
+    }
+
+    .features-image {
+        margin-bottom: 20px;
+    }
+
+    .features-image img {
+        width: 100%;
+        height: auto;
+    }
+
     /* Some Facts Part */
     .some-facts-container {
         margin: 0;
@@ -342,6 +447,11 @@
     .facts-boxes {
         grid-template-columns: repeat(1, 1fr);
         row-gap: 30px;
+    }
+
+    .box {
+        width: 200px;
+        height: 150px;
     }
 
     .box:hover {
@@ -374,9 +484,13 @@
         
     }
 
-    /* Header Section Style */
+    /* Footer Section Style */
     .footer-container {
         margin: 0;
         border-radius: 0;
+    }
+
+    .footer-description {
+        font-size: 16px;
     }
 }
